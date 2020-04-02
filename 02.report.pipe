@@ -1,0 +1,9 @@
+Command:sylbanie@Sylbanie5:~$ ls | grep list
+sylbanie@Sylbanie5:~$ wc -l /etc/passwd
+42 /etc/passwd
+Command:sylbanie@Sylbanie5:~$ free -g | head -n 2 | tail -n 1 | awk '{print $2}'
+7
+Command:sylbanie@Sylbanie5:~$ cat /proc/cpuinfo | grep 'cpu cores' | head -1
+cpu cores	: 6
+Command:sylbanie@Sylbanie5:~$ find . |grep .jpeg | wc -l
+0
