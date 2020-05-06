@@ -1,0 +1,4 @@
+deensbn@ubuntu:~$ pidof firefox
+3352 3281 3257 3197 3173 3018
+deensbn@ubuntu:~$ ps -o nlwp 10103
+NLWP
